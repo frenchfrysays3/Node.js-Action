@@ -1,0 +1,19 @@
+{
+  "name": "node.js-action",
+  "version": "1.0.0",
+  "description": "A Node.js Action for me to experiment",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build src/index.js -o dist --license LICENSE"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.1"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.3"
+  }
+}

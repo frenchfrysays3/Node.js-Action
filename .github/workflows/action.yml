@@ -1,0 +1,13 @@
+name: 'Hello World Node.js Action'
+description: 'Greets a person and logs the time'
+inputs:
+  who-to-greet:  # The input ID
+    description: 'Who to greet'
+    required: true
+    default: 'World'
+outputs:
+  time: # The output ID
+    description: 'The time we greeted you'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
